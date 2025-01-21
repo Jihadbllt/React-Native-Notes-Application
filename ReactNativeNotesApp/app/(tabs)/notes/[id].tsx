@@ -1,6 +1,6 @@
 import { useLocalSearchParams } from "expo-router"
 import { View, Text, StyleSheet } from "react-native"
-import { items } from "../../assets/data"
+import { items } from "../../../assets/data"
 export default function NoteDetails() {
     const { id } = useLocalSearchParams()
     const noteId = Array.isArray(id) ? id[0] : id
